@@ -1,0 +1,18 @@
+---
+title: Next Auth
+post:
+  - first-post
+  - second-post
+---
+
+```tsx
+import { Provider } from "next-auth/client"
+
+export default function App({ Component, pageProps }) {
+  return (
+    <Provider session={pageProps.session}>
+      <Component {...pageProps} />
+    </Provider>
+  )
+}
+```

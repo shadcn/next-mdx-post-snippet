@@ -1,0 +1,9 @@
+{
+  "post": {
+    "contentPath": "content/posts",
+    "basePath": "/blog"
+  },
+  "snippet": {
+    "contentPath": "content/snippets"
+  }
+}
